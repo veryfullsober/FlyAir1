@@ -1,0 +1,9 @@
+include ':app'
+rootProject.name = "FlyAir"
+dependencyResolutionManagement {
+    repositories {
+        google()
+        jcenter()
+        maven {url 'https://developer.huawei.com/repo/'}
+    }
+}
